@@ -1,5 +1,7 @@
 flask
+flask-cors
 pyTelegramBotAPI
 requests
 scipy
 numpy
+ 
