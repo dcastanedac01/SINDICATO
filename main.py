@@ -24,8 +24,8 @@ from datetime import datetime, timedelta
 from scipy.stats import poisson
 
 # ── CONFIG ─────────────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN",    "8685030239:AAHHgvlGN-WEm-GzfOW1d-5ecJ7vn5Eg-Mqw")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID",  "8685030239")
+TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN",    "8983861172:AAFuX_w4PkAYIRNlIhhQTxi8xo4fGXrzMNY")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID",  "8983861172")
 ODDS_API_KEY     = os.environ.get("ODDS_API_KEY",      "9a8fdf02aa5ec29ae88765c4c8f78576dcc48e8e96da746fad0b3ac183ad42d5")
 ANTHROPIC_KEY    = os.environ.get("ANTHROPIC_API_KEY", "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")
 OPENWEATHER_KEY  = os.environ.get("OPENWEATHER_API_KEY","3d0ec65a44abc9f16409f45003b71b53")
